@@ -1,0 +1,95 @@
+.price {
+    position: absolute;
+    top: 2px;
+    right: 0rem;
+    z-index: 100;
+    background: linear-gradient(to right bottom, #67b26f, #4ca2cd);
+    border: 4px solid white;
+    border-radius: 50%;
+    transform: rotate(15deg);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 20px;
+    font-family: "Bungee Inline", sans-serif;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mzn {
+    position: absolute;
+    top: 45px;
+    right: 2rem;
+    z-index: 100;
+    transform: rotate(15deg);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+    color: rgb(37, 116, 86);
+    font-size: 12px;
+    font-family: "Bungee Inline", sans-serif;
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.priceB {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    z-index: 100;
+    background: linear-gradient(to right bottom, #67b26f, #4ca2cd);
+    border: 4px solid white;
+    border-radius: 50%;
+    transform: rotate(15deg);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 20px;
+    font-family: "Bungee Inline", sans-serif;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mznB {
+    position: absolute;
+    top: 43px;
+    right: 20px;
+    z-index: 100;
+    transform: rotate(15deg);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+    color: rgb(37, 116, 86);
+    font-size: 12px;
+    font-family: "Bungee Inline", sans-serif;
+    display: flex;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 320px){
+    .mznB{
+        display: none;
+    }
+}
+
+@media(min-width: 768px){
+    .mznB{
+        display: none;
+    }
+}
+
+@media(min-width: 1000px){
+    .mznB{
+        display: flex;
+        right: 5px;
+    }
+}

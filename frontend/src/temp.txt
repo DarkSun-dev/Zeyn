@@ -1,0 +1,20 @@
+import { Button } from "@material-ui/core"
+import axios from "axios"
+import { useEffect } from "react"
+import { Link } from "react-router-dom"
+import Header from "../components/Header"
+
+const Home = ({ user, isLoggedIn }) => {
+    useEffect(() => {
+        console.log(user)
+        console.log('Is it logged: ' + isLoggedIn)
+    }, [])
+
+    return (
+        <div> 
+            <Header user={user} isLoggedIn={isLoggedIn} />
+            <h1>Home</h1>
+        </div>
+    )
+}
+export default Home
